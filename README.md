@@ -121,7 +121,7 @@ See code [here](/code/crack_seed_mt19937.py) for an implementation of the set up
 
 ### Idea
 
-After observing *n* numbers, it is possible to predict all future iterations by reconstructing the internal state of the RNG, since the tempering function used to produce outputs is bijective and *invertible*.
+After observing *n* numbers, it is possible to predict all future iterations by reconstructing the internal state of the RNG, since the tempering function used to produce outputs is bijective and *invertible*. (However, this wouldn't work for the cryptographically secure variant CryptMT)
 
 Inverting the temper transform involves applying the inverse of each operation of the tempering function in reverse order. Examine the code segment from the tempering function:
 
