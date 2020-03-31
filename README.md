@@ -86,7 +86,7 @@ The tempering operations are defined as
 
 ### Implementation
 
-The code can be found [here](/code/implement_mt19937).
+The code can be found [here](/code/implement_mt19937.py).
 
 
 
@@ -111,7 +111,7 @@ This example illustrates a vulnerability from using an imprecise clock as the se
 
 ### Implementation
 
-See code [here](/code/crack_seed_mt19937) for an implementation of the set up and a comparison of the two seeds (actual & guessed).
+See code [here](/code/crack_seed_mt19937.py) for an implementation of the set up and a comparison of the two seeds (actual & guessed).
 
 
 
